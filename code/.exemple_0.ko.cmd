@@ -1,0 +1,1 @@
+cmd_/home/hlafi98/kernel_programming/exemple_0.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/hlafi98/kernel_programming/exemple_0.ko /home/hlafi98/kernel_programming/exemple_0.o /home/hlafi98/kernel_programming/exemple_0.mod.o;  true
